@@ -4,7 +4,7 @@ A bot to message/spam a certain contact/group on WhatsApp. Need to add the featu
 # THIS ONLY WORKS ON GOOGLE CHROME. IF YOU WANT TO USE IT, INSTALL THE LATEST CHROME-DRIVER and PUT IN YOUR CUSTOM 'PATH.'
 
 # Authors
-@preethampython101
+- [Preetham Thelluri](https://www.github.com/preethampython101)
 
 # Why?
 I just thought it would be cool to be able to replicate run-mail-bait, but on WhatsApp. Pretty decent performance, I reckon.
