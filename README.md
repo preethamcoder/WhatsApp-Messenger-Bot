@@ -12,5 +12,12 @@ I just thought it would be cool to be able to replicate run-mail-bait, but on Wh
 # How does this work?
 The user will run the script, and then enter the name of the contact on WhatsApp. Then, he/she will be prompted to enter the message. A selection will follow, where the user can choose to message or spam the given contact. Enter the number of messages and the same message will be sent n times.
 
+# Usage:
+Install everything in the requirements.txt file.
+Clone this repo: git clone https://github.com/preethampython101/WhatsApp-Messenger-Bot.git
+Modify the path to your local one.
+Run the file with either of the commands below!
+python3 whatsappbot.py or python whatsappbot.py
+
 # Issues?
 Feel free to mention them!
