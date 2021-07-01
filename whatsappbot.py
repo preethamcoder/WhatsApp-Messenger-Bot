@@ -6,14 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select, WebDriverWait
 
-#contact = input("Enter the contact name: ")
-#message = input("Enter the message you want to send: ")
-
-url = "https://web.whatsapp.com"
-
-driver = webdriver.Chrome(executable_path='C:\\Users\\sthelluri1\\Desktop\\Python Programs\\chromedriver_win32\\chromedriver.exe')
-driver.get(url)
-
 #Finding the search bar and looking up the contact
 def find_contact(contact):
     inp_xpath_search = '//*[@id="side"]/div[1]/div/label/div/div[2]'
@@ -54,6 +46,10 @@ def spam(contact, message):
 
 #Defining the feature that interacts with the user
 def spam_or_message():
+    url = "https://web.whatsapp.com"
+    driver = webdriver.Chrome(executable_path='C:\\Users\\sthelluri1\\Desktop\\Python Programs\\chromedriver_win32\\chromedriver.exe')
+    driver.get(url)
+    
     contact = input("Enter the contact name: ")
     message = input("Enter the message you want to send: ")
     action = input("Do you want to MESSAGE or SPAM the person? (M/S)")
