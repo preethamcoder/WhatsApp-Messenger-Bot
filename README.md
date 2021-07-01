@@ -22,3 +22,8 @@ python3 whatsappbot.py or python whatsappbot.py
 
 # Issues?
 Feel free to mention them!
+
+# Need to add
+- Generalize path
+- Extract OS
+- Conditional imports
